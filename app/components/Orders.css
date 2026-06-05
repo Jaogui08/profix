@@ -1,0 +1,32 @@
+.orders-card{
+    color: #000000;
+    background-color: #ffffff;
+    padding: 35;
+    width: 350;
+    height: 350;
+    border-radius: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s;
+}
+.orders-card-title{
+    display: flex;
+    flex-direction: column;
+    gap: 5;
+}
+.orders-card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+    margin-top: 10;
+}
+.orders-card-rate{
+    display: flex;
+    align-items: center;
+}
+
+.orders-card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
