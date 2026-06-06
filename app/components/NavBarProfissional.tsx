@@ -16,7 +16,7 @@ export default function NavBarProfissional() {
     
     return(
         <nav style={{backgroundColor: "#11a3a3", width: "100%", paddingInline: 50, display: "flex", alignItems: "center", justifyContent: "space-between"}}>
-            <img style={{width: 90}} src="../logo-profix.png"/>
+            <img style={{width: 90}} src="/logo-profix.png"/>
 
             <div style={{color: "#ffffff", fontSize: "1.1rem", fontWeight: 500, display: "flex", gap: 50}}>
                 <Link className="nav-link" href={"/dashboard-profissional/pedidos"}>Pedidos em Aberto</Link>

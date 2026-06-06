@@ -1,0 +1,206 @@
+.hero-servicos{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50;
+    padding-inline: 200;
+}
+.hero-servicos-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60;
+}
+.hero-servicos-text h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    width: 620;
+}
+.hero-servicos-text h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 840;
+}
+.hero-servicos-icon{
+    display: flex;
+    align-items: center;
+}
+
+.services-cont{
+    background-color: #11a3a3;
+    width: 80%;
+    border-radius: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60;
+}
+.services-cont-2{
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services-cont-2 h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-top: 60;
+    margin-bottom: 50;
+}
+.services-cont-2 a{
+    width: 80%;
+    border: 1px #000000 solid;
+    border-radius: 10;
+    padding: 20;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 30;
+    box-shadow: 0px 4px 5px 0px #00000063;
+    transition: transform 0.3s;
+}
+.services-cont-2 a:hover{
+    transform: translateY(-5);
+}
+.services-cont-2 p{
+    background-color: #91f4f4;
+    color: #1b7474;
+    font-size: 1.4rem;
+    padding: 10;
+    padding-inline: 150;
+    border-radius: 15;
+    margin-top: 30;
+    margin-bottom: 60;
+}
+
+.explicacao-cont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 200;
+    margin-bottom: 180;
+}
+
+.explicacao{
+    color: #9FF7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1100;
+    border: 1px #9FF7F7 solid;
+    padding: 60;
+    border-radius: 30;
+    gap: 50;
+    text-align: justify;
+    transition: transform 0.3s;
+}
+.explicacao:hover{
+    transform: scale(1.025);
+}
+
+.services-form-cont{
+    background-color: #11a3a3;
+    width: 80%;
+    border-radius: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60;
+    margin-top: 80;
+}
+.services-form-cont-2{
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services-form-cont-2 h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-top: 60;
+    margin-bottom: 50;
+}
+
+.services-form-input{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10;
+    margin-bottom: 30;
+}
+.services-form-input label{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 5;
+}
+.services-form-input input, textarea{
+    border: 1px #9b9b9b solid;
+    padding: 20;
+    font-size: 1.1rem;
+    border-radius: 10;
+    word-break: break-all;
+}
+.services-form-input input, textarea:focus{
+    outline: none;
+}
+
+.services-form-button{
+    background-color: #91f4f4;
+    color: #1b7474;
+    font-size: 1.4rem;
+    padding: 10;
+    padding-inline: 150;
+    border-radius: 15;
+    margin-top: 30;
+    margin-bottom: 60;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+.services-form-button:hover{
+    transform: scale(1.05);
+    background-color: #42bbbb;
+    color: #cef3f3;
+}
+
+.card-pedidos{
+    border: 1px #000000 solid;
+    border-radius: 10;
+    width: 80%;
+    padding: 30;
+    margin-bottom: 40;
+    box-shadow: 0px 4px 5px 0px #00000063;
+    transition: transform 0.3s;
+}
+.card-pedidos:hover{
+    transform: translateY(-5px);
+}
+.card-pedidos-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card-pedidos-button{
+    background-color: #91f4f4;
+    color: #1b7474;
+    font-size: 1.4rem;
+    padding: 10;
+    padding-inline: 150;
+    border-radius: 15;
+    margin-top: 20;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+.card-pedidos-button:hover{
+    transform: scale(1.05);
+    background-color: #42bbbb;
+    color: #cef3f3;
+}
