@@ -204,3 +204,9 @@
     background-color: #42bbbb;
     color: #cef3f3;
 }
+.details-alert{
+    text-align: left;
+}
+.details-alert p{
+    font-size: 1.3rem;
+}

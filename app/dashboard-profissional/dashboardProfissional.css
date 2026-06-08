@@ -1,0 +1,20 @@
+.pro-header{
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 50;
+    margin-bottom: 50;
+    margin-left: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 40;
+}
+
+.pro-cards-container{
+    display: flex;
+    justify-content: center;
+    margin-inline: 110;
+    margin-bottom: 140;
+    flex-wrap: wrap;
+    gap: 70;
+}

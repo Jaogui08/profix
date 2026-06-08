@@ -30,10 +30,14 @@ export default function MeusPedidos(){
                             ) : (
                                 pedidos.map((pedido) => (
                                     <CardPedidos
-                                        key={pedido.id} 
-                                        servico={pedido.servico} 
-                                        dataCriacao={pedido.dataCriacao} 
-                                        status={pedido.status}/>
+                                        key={pedido.id}
+                                        servico={pedido.servico}
+                                        dataCriacao={pedido.dataCriacao}
+                                        status={pedido.status} 
+                                        descricao={pedido.descricao} 
+                                        nome={pedido.nome} 
+                                        telefone={pedido.telefone} 
+                                    />
                                 ))
                             )
                         }
