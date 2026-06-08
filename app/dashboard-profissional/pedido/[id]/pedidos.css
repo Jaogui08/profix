@@ -1,0 +1,54 @@
+.pedidos-id-cont{
+    background-color: #ffffff;
+    width: 70%;
+    padding: 50;
+}
+.pedidos-id-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150;
+    margin-bottom: 40;
+}
+.pedidos-id-header-2{
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    width: 500;
+}
+.pedidos-id-button{
+    background-color: #17c6c6;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10;
+    width: 70%;
+    margin-top: 40;
+    border-radius: 15;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.pedidos-id-button:hover{
+    background-color: #109e9e;
+    transform: scale(1.05);
+}
+.pedidos-id-img{
+    background-color: #17c6c6;
+    width: 480;
+    height: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20;
+}
+
+.pedidos-id-infos{
+    padding-inline: 60;
+}
+.pedidos-id-infos h1{
+    background-color: #17c6c6a8;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10;
+    border-radius: 10;
+    font-weight: 600;
+}
