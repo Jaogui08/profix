@@ -1,20 +1,20 @@
 .pedidos-cont{
     background-color: #11a3a3;
     width: 80%;
-    border-radius: 5;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60;
-    margin-top: 100;
-    margin-bottom: 140;
+    padding: 60px;
+    margin-top: 100px;
+    margin-bottom: 140px;
 }
 .pedidos-cont-2{
     background-color: #ffffff;
     width: 100%;
-    padding-top: 50;
-    padding-bottom: 50;
-    border-radius: 5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;

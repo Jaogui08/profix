@@ -2,19 +2,20 @@
     color: #ffffff;
     font-size: 1.7rem;
     font-weight: 500;
-    margin-top: 50;
-    margin-bottom: 50;
-    margin-left: 100;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
-    gap: 40;
+    gap: 40px;
 }
 
 .pro-cards-container{
     display: flex;
+    flex: 1;
     justify-content: center;
-    margin-inline: 110;
-    margin-bottom: 140;
+    margin-inline: 110px;
+    margin-bottom: 140px;
     flex-wrap: wrap;
-    gap: 70;
+    gap: 70px;
 }

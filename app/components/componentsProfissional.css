@@ -1,8 +1,8 @@
 .pro-pedidos-card{
     background-color: #ffffff;
-    padding: 30;
-    border-radius: 20;
-    max-width: 410;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 410px;
     transition: transform 0.3s;
 }
 .pro-pedidos-card:hover{
@@ -16,9 +16,9 @@
 }
 .pro-pedidos-img{
     background-color: #17c6c6;
-    width: 350;
-    border-radius: 20;
-    margin-bottom: 20;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -28,9 +28,9 @@
     color: #000000;
     font-size: 1.3rem;
     width: 80%;
-    padding: 10;
-    border-radius: 15;
-    margin-top: 25;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 25px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }

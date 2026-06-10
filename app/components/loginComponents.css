@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 180;
-    margin-bottom: 90;
+    margin-top: 180px;
+    margin-bottom: 90px;
 }
 
 .como-funciona{
@@ -12,12 +12,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 500;
-    width: 1100;
+    height: 500px;
+    width: 1100px;
     border: 1px #9FF7F7 solid;
-    padding: 60;
-    border-radius: 30;
-    gap: 50;
+    padding: 60px;
+    border-radius: 30px;
+    gap: 50px;
     transition: transform 0.3s;
 }
 .como-funciona:hover{
@@ -28,8 +28,8 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 90;
-    margin-bottom: 180;
+    margin-top: 90px;
+    margin-bottom: 180px;
 }
 
 .beneficios{
@@ -38,12 +38,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 500;
-    width: 1100;
+    height: 500px;
+    width: 1100px;
     border: 1px #9FF7F7 solid;
-    padding: 60;
-    border-radius: 30;
-    gap: 50;
+    padding: 60px;
+    border-radius: 30px;
+    gap: 50px;
     transition: transform 0.3s;
 }
 .beneficios:hover{
@@ -52,12 +52,12 @@
 .beneficios-card-cont{
     display: flex;
     align-items: center;
-    gap: 70;
+    gap: 70px;
 }
 .beneficios-card{
     font-size: 1.6rem;
     font-weight: 500;
-    width: 150;
+    width: 150px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -71,23 +71,23 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 90;
-    padding: 30;
+    gap: 90px;
+    padding: 30px;
 }
 .footer-infos{
-    margin: 40;
+    margin: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20;
+    gap: 20px;
     color: #ffffff;
 }
 .footer-cont{
     display: flex;
-    gap: 15;
+    gap: 15px;
 }
 .footer-contact-card{
     display: flex;
-    gap: 7;
+    gap: 7px;
 }

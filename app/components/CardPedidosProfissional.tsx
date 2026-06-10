@@ -35,27 +35,6 @@ export default function CardPedidosProfissional({id, servico, areaServico, dataC
 
     const imagemServico = imagens[areaServico as keyof typeof imagens];
 
-    function verDetalhes(){
-        Swal.fire({
-            title: servico,
-            html: `
-                <p><b>Status: </b>${status}</p>
-                <p><b>Data de Criação: </b>${dataCriacao}</p>
-                <p><b>Nome do Cliente: </b>${nome}</p>
-                <p><b>Telefone Informado: </b>${telefone}</p>
-                <br>
-                <p><b>Descrição: </b></p>
-                <p>${descricao}</p>
-            `,
-            customClass: {
-                htmlContainer: "details-alert"
-            },
-            confirmButtonColor: "#0ca8a8",
-            confirmButtonText: "Fechar",
-            width: 600,
-        });
-    }
-
     return(
         <section className="pro-pedidos-card">
             <div className="pro-pedidos-title">
@@ -68,7 +47,7 @@ export default function CardPedidosProfissional({id, servico, areaServico, dataC
 
             <div style={{display: "flex", justifyContent: "center"}}>
                 <Link href={`/dashboard-profissional/pedido/${id}`} className="pro-pedidos-button">
-                    Ver Detalhes
+                    Abrir Detalhes
                 </Link>
             </div>
 

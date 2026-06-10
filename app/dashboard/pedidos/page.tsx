@@ -17,16 +17,16 @@ export default function MeusPedidos(){
     }, []);
 
     return(
-        <section style={{backgroundColor: "#000000"}}>
+        <section style={{backgroundColor: "#000000", minHeight: "100vh", display: "flex", flexDirection: "column"}}>
             <NavBar/>
 
-            <div style={{display: "flex", justifyContent: "center"}}>
+            <div style={{display: "flex", justifyContent: "center", flex: 1}}>
                 <div className="pedidos-cont">
                     <div className="pedidos-cont-2">
                         
                         {
                             pedidos.length === 0 ? (
-                                <h1 style={{fontSize: "2.5rem", fontWeight: 600, marginTop: 20, marginBottom: 100}}>Nenhum pedido encontrado</h1>
+                                <h1 style={{fontSize: "2rem", fontWeight: 600, marginTop: 20, marginBottom: 100}}>Nenhum pedido encontrado</h1>
                             ) : (
                                 pedidos.map((pedido) => (
                                     <CardPedidos

@@ -1,30 +1,33 @@
 .pedidos-id-cont{
     background-color: #ffffff;
     width: 70%;
-    padding: 50;
+    padding: 50px;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    border-radius: 20px;
 }
 .pedidos-id-header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150;
-    margin-bottom: 40;
+    gap: 150px;
+    margin-bottom: 40px;
 }
 .pedidos-id-header-2{
     font-size: 2rem;
     font-weight: 500;
     display: flex;
     flex-direction: column;
-    width: 500;
+    width: 500px;
 }
 .pedidos-id-button{
     background-color: #17c6c6;
     cursor: pointer;
     font-size: 1.2rem;
-    padding: 10;
+    padding: 10px;
     width: 70%;
-    margin-top: 40;
-    border-radius: 15;
+    margin-top: 40px;
+    border-radius: 15px;
     transition: background-color 0.3s, transform 0.3s;
 }
 .pedidos-id-button:hover{
@@ -33,22 +36,27 @@
 }
 .pedidos-id-img{
     background-color: #17c6c6;
-    width: 480;
-    height: 300;
+    width: 480px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20;
+    border-radius: 20px;
 }
 
 .pedidos-id-infos{
-    padding-inline: 60;
+    padding-inline: 60px;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 30px;
 }
 .pedidos-id-infos h1{
     background-color: #17c6c6a8;
     text-align: center;
     font-size: 2rem;
-    padding: 10;
-    border-radius: 10;
+    padding: 10px;
+    border-radius: 10px;
     font-weight: 600;
 }

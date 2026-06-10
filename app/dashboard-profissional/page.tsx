@@ -20,7 +20,7 @@ export default function DashboardProfissional(){
     }, []);
 
     return(
-        <section style={{backgroundColor: "#000000"}}>
+        <section style={{backgroundColor: "#000000", minHeight: "100vh", display: "flex", flexDirection: "column"}}>
             <NavBarProfissional/>
 
             <div className="pro-header">
@@ -31,7 +31,7 @@ export default function DashboardProfissional(){
             <div className="pro-cards-container">
                 {
                     pedidos.length === 0 ? (
-                        <h1 style={{fontSize: "2.5rem", fontWeight: 600, marginTop: 20, marginBottom: 100}}>Nenhum pedido encontrado</h1>
+                        <h1 style={{fontSize: "2rem", fontWeight: 600, marginTop: 20, marginBottom: 100, color: "#ffffff"}}>Nenhum pedido encontrado</h1>
                     ) : (
                         pedidos.map((pedido) => (
                             <CardPedidosProfissional 
