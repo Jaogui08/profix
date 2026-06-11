@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1>Marketplace de Serviços Web!</h1>
 
-## Getting Started
+**[Clique aqui para ver o site completo!](https://profix-two.vercel.app)**
 
-First, run the development server:
+<h2>Prévia do site</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<img width="1896" height="950" alt="image" src="https://github.com/user-attachments/assets/234f3378-85db-4204-a30a-5a383e84dea4" />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<h2>Descrição do projeto</h2>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este projeto foi desenvolvido com o objetivo de facilitar a conexão entre clientes e profissionais prestadores de serviços técnicos, tornando o processo de solicitação e contratação mais simples, rápido e organizado.
 
-## Learn More
+O site permite que os usuários encontrem diferentes categorias de serviços, realizem solicitações detalhadas e acompanhem o andamento de seus pedidos. Além disso, os profissionais podem visualizar as solicitações recebidas, acessar os detalhes de cada serviço e gerenciar seu status, proporcionando uma experiência prática e eficiente para ambas as partes.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2>Tecnologias utilizadas</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Next.js e React:** Desenvolvimento da interface, componentização e gerenciamento das páginas da aplicação.
+* **TypeScript:** Tipagem estática para maior organização e confiabilidade do código.
+* **CSS:** Estilização e responsividade das telas.
+* **SweetAlert2:** Criação de notificações e caixas de diálogo personalizadas.
+* **LocalStorage:** Persistência local dos dados durante a execução do sistema.
+* **VS Code:** Ambiente de desenvolvimento utilizado na implementação do projeto.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h2>Equipe</h2>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- João Guilherme Sales
+- João Thomaz Rodrigues
+- Maria Helena Tavares
+- Laura Yukimi Horiy
