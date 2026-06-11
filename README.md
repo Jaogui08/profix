@@ -30,6 +30,6 @@ O site permite que os usuários encontrem diferentes categorias de serviços, re
 <h2>Equipe</h2>
 
 - João Guilherme Sales
-- João Thomaz Rodrigues
-- Maria Helena Tavares
 - Laura Yukimi Horiy
+- Maria Helena Tavares
+- João Thomaz Rodrigues
