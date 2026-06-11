@@ -140,14 +140,15 @@
     font-weight: 500;
     margin-left: 5px;
 }
-.services-form-input input, textarea{
+.services-form-input input, .services-form-input textarea{
     border: 1px #9b9b9b solid;
     padding: 20px;
     font-size: 1.1rem;
     border-radius: 10px;
     word-break: break-all;
 }
-.services-form-input input, textarea:focus{
+.services-form-input input:focus, 
+.services-form-input textarea:focus{
     outline: none;
 }
 
